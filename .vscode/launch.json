@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - For_Loop2",
+            "request": "launch",
+            "mainClass": "For_Loop2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - For_Loop",
+            "request": "launch",
+            "mainClass": "For_Loop"
+        }
+    ]
+}
