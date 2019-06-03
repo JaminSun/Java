@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Invalidinput",
+            "request": "launch",
+            "mainClass": "Invalidinput"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - privateclass",
             "request": "launch",
             "mainClass": "privateclass"

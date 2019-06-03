@@ -7,6 +7,7 @@ public void Physics(int P){
         Phy=P;
         }
     else{
+        Phy=-1;
         System.out.println("Invalid Physics Marks");
         }
     }
@@ -17,7 +18,8 @@ public void Chemistry(int C){
         Che=C;
         }
     else{
-        System.out.println("Invalid Physics Marks");
+        Che=-1;
+        System.out.println("Invalid Chemistry Marks");
         }
     }
 
@@ -27,31 +29,39 @@ public void Maths(int M){
         Mat=M;
         }
     else{
-        System.out.println("Invalid Physics Marks");
+        Mat=-1;
+        System.out.println("Invalid Maths Marks");
         }
     }
 
 public void ShowResults(){
     int total;
-    total = Phy + Che + Mat;
-    System.out.println("Total Score: "+ total);
-    if (total > 200)
+    if (Phy==-1 || Che==-1 || Mat==-1)
         {
-        System.out.println("Passed");
+        System.out.println("No Results");
         }
     else{
-        System.out.println("Failed");
+        total = Phy + Che + Mat;
+        System.out.println("Total Score: "+ total);        
         }
     }
 }
 
-class privateclass{
+class Invalidinput{
     public static void main(String xyz[]){
-    results Peter;
-    Peter = new results();
-    Peter.Physics=50;
-    Peter.Chemistry=70;
-    Peter.Maths=80;
-    Peter.ShowResults();
+        results Peter, James;
+
+        Peter = new results();
+        James = new results();
+
+        Peter.Physics(50);
+        Peter.Chemistry(990);
+        Peter.Maths(80);
+        Peter.ShowResults();
+
+        James.Physics(100);
+        James.Chemistry(60);
+        James.Maths(80);
+        James.ShowResults();
     }
 }

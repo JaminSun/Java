@@ -17,7 +17,7 @@ public void Chemistry(int C){
         Che=C;
         }
     else{
-        System.out.println("Invalid Physics Marks");
+        System.out.println("Invalid Chemistry Marks");
         }
     }
 
@@ -27,7 +27,7 @@ public void Maths(int M){
         Mat=M;
         }
     else{
-        System.out.println("Invalid Physics Marks");
+        System.out.println("Invalid Maths Marks");
         }
     }
 
@@ -49,9 +49,9 @@ class privateclass{
     public static void main(String xyz[]){
     results Peter;
     Peter = new results();
-    Peter.Physics=50;
-    Peter.Chemistry=70;
-    Peter.Maths=80;
+    Peter.Physics(50);
+    Peter.Chemistry(70);
+    Peter.Maths(80);
     Peter.ShowResults();
     }
 }
