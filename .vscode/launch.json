@@ -2,6 +2,24 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - test2",
+            "request": "launch",
+            "mainClass": "test2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ObjectCreate",
+            "request": "launch",
+            "mainClass": "ObjectCreate"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - First$ObjectCreate",
+            "request": "launch",
+            "mainClass": "First$ObjectCreate"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - For_Loop2",
             "request": "launch",
             "mainClass": "For_Loop2"
