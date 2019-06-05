@@ -2,6 +2,30 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Calculations",
+            "request": "launch",
+            "mainClass": "Calculations"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Inheritance",
+            "request": "launch",
+            "mainClass": "Inheritance"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NumsToWords",
+            "request": "launch",
+            "mainClass": "NumsToWords"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StaticMember",
+            "request": "launch",
+            "mainClass": "StaticMember"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ConstructorOverload",
             "request": "launch",
             "mainClass": "ConstructorOverload"
